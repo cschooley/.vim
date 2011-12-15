@@ -2,10 +2,13 @@
 set tabstop=4
 set shiftwidth=4
 
+"pathogen configuration
+"http://goo.gl/f7Df0
+call pathogen#infect() 
+
 "turn on filetype indent checking
 filetype on
 filetype plugin indent on
-
 
 "Turn on spell checking with English dictionary
 set spell
